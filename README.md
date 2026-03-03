@@ -2,6 +2,17 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Setup : 
+run this command 
+to access the shared library
+
+
+```bash
+export GITHUB_TOKEN=ghp_your_actual_token_here
+```
+
+This allows you to access other packages from Github, for example the shared components library
+
 First, run the development server:
 
 ```bash
