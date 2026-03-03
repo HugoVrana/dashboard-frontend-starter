@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import {cn} from "@hugovrana/dashboard-frontend-shared";
 
 function ExampleWrapper({ className, ...props }: React.ComponentProps<"div">) {
   return (
