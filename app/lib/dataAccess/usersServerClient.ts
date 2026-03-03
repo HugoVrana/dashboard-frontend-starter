@@ -4,8 +4,8 @@ import {isUserInfo, mapToUserInfo} from "@/app/lib/typeValidators/userInfoValida
 import {LoginRequest} from "@/app/models/auth/loginRequest";
 import {UserInfo} from "@/app/models/auth/userInfo";
 import {AuthResponse} from "@/app/models/auth/authResponse";
-import {isAuthResponse, mapToAuthResponse} from "@/app/lib/typeValidators/authResponseValidator";
 import {TotpSetupResponse, TotpSetupResponseSchema} from "@/app/models/auth/totpSetupResponse";
+import {isAuthResponse, mapToAuthResponse} from "@/app/lib/typeValidators/authResponseValidator";
 
 const grafanaClient : GrafanaServerClient = new GrafanaServerClient();
 
